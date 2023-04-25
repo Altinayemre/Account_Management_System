@@ -32,7 +32,7 @@ GET /v1/customer - retrieves all customers
 POST /v1/customer - creates a new customer
 ```
 
-JUnit test coverage is 100% as well as integration tests are available.
+JUnit test coverage is 100% are available.
 
 
 ### Tech Stack
@@ -41,6 +41,7 @@ JUnit test coverage is 100% as well as integration tests are available.
 - Java 17
 - Spring Boot
 - Spring Data JPA
+- Request-Response Pattern / Record-Dto
 - Restful API
 - H2 In memory database  
 - Docker
