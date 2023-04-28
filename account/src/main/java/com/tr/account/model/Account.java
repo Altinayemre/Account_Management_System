@@ -28,8 +28,7 @@ public class Account {
     Customer customer;
     @OneToMany(mappedBy = "account", fetch = FetchType.EAGER,cascade = CascadeType.ALL)
     Set<Transaction> transactions = new HashSet<>();
-
-    //updated
+    
     public Account(BigDecimal balance, LocalDateTime creationDate, Customer customer) {
         this.id="";
         this.balance=balance;
